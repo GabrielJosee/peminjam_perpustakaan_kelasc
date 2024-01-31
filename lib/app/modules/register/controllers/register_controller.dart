@@ -61,7 +61,7 @@ class RegisterController extends GetxController {
       if (e.response != null) {
         if (e.response?.data != null) {
           Get.snackbar("Sorry", "${e.response?.data['message']}",
-              backgroundColor: Colors.orange);
+              backgroundColor: Colors.yellow);
         }
       } else {
         Get.snackbar("Sorry", e.message ?? "", backgroundColor: Colors.red);
