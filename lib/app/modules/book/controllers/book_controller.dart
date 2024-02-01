@@ -6,18 +6,18 @@ import '../../../data/constant/endpoin.dart';
 import '../../../data/provider/api_provider.dart';
 
 class BookController extends GetxController with StateMixin<List<DataBook>>{
-  //TODO: Implement BookController
+
 
   final count = 0.obs;
   @override
   void onInit() {
     super.onInit();
-    getData();
   }
 
   @override
   void onReady() {
     super.onReady();
+    getData();
   }
 
   @override
